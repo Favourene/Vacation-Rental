@@ -957,4 +957,7 @@ footer li a{
     .map iframe{
         width: 100% !important;
     }
+    .rig form #date, .rig form #date1{
+        width: 100%;
+    }
 }
