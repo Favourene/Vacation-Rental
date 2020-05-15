@@ -866,6 +866,9 @@ footer li a{
     .cent{
         position: relative;
     }
+     .cent h1{
+      font-size: 40px;
+}
     .lef{
         width: 100%;
         padding-left: 10px;
@@ -926,6 +929,7 @@ footer li a{
     }
     footer{
         padding-left: 20px;
+        justify-content: unset
     }
     .un, .butt, ul{
         margin-bottom: 20px;
