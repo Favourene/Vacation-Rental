@@ -18,7 +18,10 @@ button{
     height: 0rem;
     min-height: 10vh;
     overflow: hidden;
+    width: 100%;
+    position: fixed;
     transition: height 1s ease-in-out;
+    z-index: 1000;
 }
 
 .nav .nav-menu{    
@@ -56,6 +59,7 @@ button{
 .nav ul{
     display: flex;
     margin: 0;
+    margin-right: 30px;
 }
 
 .nav ul li{
