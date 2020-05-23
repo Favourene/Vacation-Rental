@@ -45,6 +45,7 @@ button{
     display: flex;
     justify-content: flex-end;
     padding: 1.3rem 0;
+    margin-right: 30px;
 }
 
 .nav .toggle-collapse .toggle-icons i{
