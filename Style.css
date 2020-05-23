@@ -624,6 +624,7 @@ footer li a{
     border: none;
     border-radius: 5px;
     margin-bottom: 20px;
+    color: white;
 }
 .sub button{
     padding-top: 3px;
@@ -849,9 +850,23 @@ footer li a{
 }
 
 
+@media screen and (max-width:1150px){
+    .map, .mapte, .lost form, .rap,#fuln, .textcon{
+        width: 100%;
+    }
+    .mom{
+        width: 50%;
+        margin-bottom: 70px;
+    }
+    .map iframe{
+        width: 100% !important;
+    }
+    .rig form #date, .rig form #date1{
+        width: 100%;
+    }
+}
 
-
-@media screen and (max-width:600px){
+@media screen and (max-width:700px){
     .a, .f{
         background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(image/fam1.jpg);
         background-position: center;
@@ -946,18 +961,4 @@ footer li a{
         height: unset;
     }
 }
-@media screen and (max-width:1132px){
-    .map, .mapte, .lost form, .rap,#fuln, .textcon{
-        width: 100%;
-    }
-    .mom{
-        width: 100%;
-        margin-bottom: 70px;
-    }
-    .map iframe{
-        width: 100% !important;
-    }
-    .rig form #date, .rig form #date1{
-        width: 100%;
-    }
-}
+
